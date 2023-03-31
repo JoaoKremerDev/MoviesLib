@@ -62,3 +62,19 @@
     background-color: transparent;
     color: #f7d354;
 }
+
+
+
+@media (max-width: 700px) {
+    .movies-container div{
+        width: 48%;
+        }
+}
+
+
+@media (max-width: 400px) {
+    .movies-container div {
+        width: 100%;    
+        gap: 10px;  
+    }
+}
